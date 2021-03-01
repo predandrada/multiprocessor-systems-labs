@@ -1,0 +1,458 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x272DB4306D2CB9E",
+      "device": "xc7a100tcsg324-1",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "ram8kx8_0": "",
+      "ram8kx8_1": "",
+      "not_gate_0": "",
+      "nor_gate_0": "",
+      "decoder_0": "",
+      "splitter_addresses_0": "",
+      "nand_gate_0": "",
+      "nand_gate_1": "",
+      "nand_gate_2": "",
+      "splitter_data_0": "",
+      "mc68000_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "reset_n_0": {
+        "type": "rst",
+        "direction": "I"
+      }
+    },
+    "components": {
+      "ram8kx8_0": {
+        "vlnv": "xilinx.com:module_ref:ram8kx8:1.0",
+        "xci_name": "design_1_ram8kx8_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ram8kx8",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rw_n": {
+            "direction": "I"
+          },
+          "oe_n": {
+            "direction": "I"
+          },
+          "cs_n": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I",
+            "left": "12",
+            "right": "0"
+          },
+          "d": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "ram8kx8_1": {
+        "vlnv": "xilinx.com:module_ref:ram8kx8:1.0",
+        "xci_name": "design_1_ram8kx8_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "ram8kx8",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "rw_n": {
+            "direction": "I"
+          },
+          "oe_n": {
+            "direction": "I"
+          },
+          "cs_n": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "I",
+            "left": "12",
+            "right": "0"
+          },
+          "d": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "not_gate_0": {
+        "vlnv": "xilinx.com:module_ref:not_gate:1.0",
+        "xci_name": "design_1_not_gate_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "not_gate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "O"
+          }
+        }
+      },
+      "nor_gate_0": {
+        "vlnv": "xilinx.com:module_ref:nor_gate:1.0",
+        "xci_name": "design_1_nor_gate_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "nor_gate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "O"
+          }
+        }
+      },
+      "decoder_0": {
+        "vlnv": "xilinx.com:module_ref:decoder:1.0",
+        "xci_name": "design_1_decoder_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "decoder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "address": {
+            "direction": "I",
+            "left": "9",
+            "right": "0"
+          },
+          "o": {
+            "direction": "O"
+          }
+        }
+      },
+      "splitter_addresses_0": {
+        "vlnv": "xilinx.com:module_ref:splitter_addresses:1.0",
+        "xci_name": "design_1_splitter_addresses_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitter_addresses",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I",
+            "left": "23",
+            "right": "0"
+          },
+          "a1": {
+            "direction": "O",
+            "left": "9",
+            "right": "0"
+          },
+          "a2": {
+            "direction": "O",
+            "left": "12",
+            "right": "0"
+          }
+        }
+      },
+      "nand_gate_0": {
+        "vlnv": "xilinx.com:module_ref:nand_gate:1.0",
+        "xci_name": "design_1_nand_gate_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "nand_gate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "O"
+          }
+        }
+      },
+      "nand_gate_1": {
+        "vlnv": "xilinx.com:module_ref:nand_gate:1.0",
+        "xci_name": "design_1_nand_gate_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "nand_gate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "O"
+          }
+        }
+      },
+      "nand_gate_2": {
+        "vlnv": "xilinx.com:module_ref:nand_gate:1.0",
+        "xci_name": "design_1_nand_gate_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "nand_gate",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "O"
+          }
+        }
+      },
+      "splitter_data_0": {
+        "vlnv": "xilinx.com:module_ref:splitter_data:1.0",
+        "xci_name": "design_1_splitter_data_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "splitter_data",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "d": {
+            "direction": "I",
+            "left": "15",
+            "right": "0"
+          },
+          "d1": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          },
+          "d2": {
+            "direction": "O",
+            "left": "7",
+            "right": "0"
+          }
+        }
+      },
+      "mc68000_0": {
+        "vlnv": "xilinx.com:module_ref:mc68000:1.0",
+        "xci_name": "design_1_mc68000_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "mc68000",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "O"
+          },
+          "vcc": {
+            "direction": "I"
+          },
+          "gnd": {
+            "direction": "I"
+          },
+          "a": {
+            "direction": "O",
+            "left": "23",
+            "right": "0"
+          },
+          "b": {
+            "direction": "IO",
+            "left": "15",
+            "right": "0"
+          },
+          "f": {
+            "direction": "O",
+            "left": "2",
+            "right": "0"
+          },
+          "as": {
+            "direction": "O"
+          },
+          "rw": {
+            "direction": "O"
+          },
+          "uds": {
+            "direction": "O"
+          },
+          "lds": {
+            "direction": "O"
+          },
+          "dtack": {
+            "direction": "I"
+          },
+          "e": {
+            "direction": "O"
+          },
+          "vma": {
+            "direction": "O"
+          },
+          "vpa": {
+            "direction": "I"
+          },
+          "berr": {
+            "direction": "I"
+          },
+          "halt": {
+            "direction": "O"
+          },
+          "br": {
+            "direction": "I"
+          },
+          "bg": {
+            "direction": "O"
+          },
+          "bgack": {
+            "direction": "I"
+          },
+          "ipl": {
+            "direction": "I",
+            "left": "2",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "mc68000_0/clk"
+        ]
+      },
+      "reset_n_0_1": {
+        "ports": [
+          "reset_n_0"
+        ]
+      },
+      "mc68000_0_as_n": {
+        "ports": [
+          "nand_gate_0/a"
+        ]
+      },
+      "mc68000_0_rw_n": {
+        "ports": [
+          "nand_gate_0/b",
+          "not_gate_0/a"
+        ]
+      },
+      "nand_gate_0_c": {
+        "ports": [
+          "nand_gate_0/c",
+          "ram8kx8_1/rw_n",
+          "ram8kx8_0/rw_n"
+        ]
+      },
+      "not_gate_0_b": {
+        "ports": [
+          "not_gate_0/b",
+          "ram8kx8_1/oe_n",
+          "ram8kx8_0/oe_n"
+        ]
+      },
+      "mc68000_0_a": {
+        "ports": [
+          "mc68000_0/a",
+          "splitter_addresses_0/a"
+        ]
+      },
+      "splitter_addresses_0_a1": {
+        "ports": [
+          "splitter_addresses_0/a1",
+          "decoder_0/address"
+        ]
+      },
+      "splitter_addresses_0_a2": {
+        "ports": [
+          "splitter_addresses_0/a2",
+          "ram8kx8_0/a",
+          "ram8kx8_1/a"
+        ]
+      },
+      "mc68000_0_d": {
+        "ports": [
+          "splitter_data_0/d"
+        ]
+      },
+      "splitter_data_0_d1": {
+        "ports": [
+          "splitter_data_0/d1",
+          "ram8kx8_1/d"
+        ]
+      },
+      "splitter_data_0_d2": {
+        "ports": [
+          "splitter_data_0/d2",
+          "ram8kx8_0/d"
+        ]
+      },
+      "mc68000_0_uds_n": {
+        "ports": [
+          "nand_gate_2/a"
+        ]
+      },
+      "mc68000_0_lds_n": {
+        "ports": [
+          "nand_gate_1/a"
+        ]
+      },
+      "decoder_0_o": {
+        "ports": [
+          "decoder_0/o",
+          "nand_gate_1/b",
+          "nand_gate_2/b"
+        ]
+      },
+      "nor_gate_0_c": {
+        "ports": [
+          "nor_gate_0/c"
+        ]
+      },
+      "nand_gate_2_c": {
+        "ports": [
+          "nand_gate_2/c",
+          "ram8kx8_0/cs_n",
+          "nor_gate_0/a"
+        ]
+      },
+      "nand_gate_1_c": {
+        "ports": [
+          "nand_gate_1/c",
+          "ram8kx8_1/cs_n",
+          "nor_gate_0/b"
+        ]
+      }
+    }
+  }
+}

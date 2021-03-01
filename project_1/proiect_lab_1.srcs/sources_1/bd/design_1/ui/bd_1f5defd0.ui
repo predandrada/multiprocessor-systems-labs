@@ -1,0 +1,29 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -y 210 -defaultsOSRD
+preplace inst graphic_controller_0 -pg 1 -lvl 1 -y 200 -defaultsOSRD
+preplace inst core_logic_0 -pg 1 -lvl 2 -y 160 -defaultsOSRD
+preplace netloc clk_0_1 1 0 2 0 390 370
+preplace netloc graphic_controller_0_req 1 1 1 360
+preplace netloc graphic_controller_0_sb_stb 1 1 1 300
+preplace netloc core_logic_0_trdy 1 0 3 20 420 NJ 420 650
+preplace netloc graphic_controller_0_rbf 1 1 1 290
+preplace netloc core_logic_0_st 1 0 3 10 410 NJ 410 670
+preplace netloc graphic_controller_0_inta 1 1 1 390
+preplace netloc graphic_controller_0_intb 1 1 1 340
+preplace netloc graphic_controller_0_irdy 1 1 1 310
+preplace netloc graphic_controller_0_pipe 1 1 1 270
+preplace netloc graphic_controller_0_serr 1 1 1 320
+preplace netloc Net1 1 1 2 290J 340 630
+preplace netloc Net 1 1 2 350J 330 640
+preplace netloc graphic_controller_0_sba 1 1 1 280
+preplace netloc graphic_controller_0_c_be 1 1 1 380
+preplace netloc graphic_controller_0_ad 1 1 1 330
+preplace netloc Net2 1 1 2 270J 350 620
+preplace netloc core_logic_0_gnt 1 0 3 30 400 NJ 400 660
+levelinfo -pg 1 -20 160 510 710 -top -10 -bot 430
+"
+}
+0

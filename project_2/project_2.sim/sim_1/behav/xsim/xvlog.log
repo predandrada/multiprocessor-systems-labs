@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/lab2/SRAMtoMC6800/MC68000.V" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mc68000
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/lab2/SRAMtoMC6800/Sram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ram8kx8
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.srcs/sources_1/new/not_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module not_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.srcs/sources_1/new/nor_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nor_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/lab2/SRAMtoMC6800/DECODER.V" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.srcs/sources_1/new/splitter_addresses.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module splitter_addresses
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.srcs/sources_1/new/splitter_data.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module splitter_data
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.srcs/sources_1/new/nand_gate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module nand_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_mc68000_0_0/sim/design_1_mc68000_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_mc68000_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_ram8kx8_0_0/sim/design_1_ram8kx8_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ram8kx8_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_ram8kx8_1_0/sim/design_1_ram8kx8_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_ram8kx8_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_not_gate_0_0/sim/design_1_not_gate_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_not_gate_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_nor_gate_0_0/sim/design_1_nor_gate_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_nor_gate_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_decoder_0_0/sim/design_1_decoder_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_decoder_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_splitter_addresses_0_0/sim/design_1_splitter_addresses_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_splitter_addresses_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_splitter_data_0_0/sim/design_1_splitter_data_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_1_splitter_data_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "B:/shoebox/uni/year 4/first/smp/labs/project_2/project_2.ip_user_files/bd/design_1/ip/design_1_nand_gate_0_0/sim/design_1_nand_gate_0_0.v" into library xil_defaultlib

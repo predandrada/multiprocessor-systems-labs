@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simulation_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simulation" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1144970415fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="214"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/simulation/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/a" type="array">
+      <obj_property name="ElementShortName">a[23:0]</obj_property>
+      <obj_property name="ObjectShortName">a[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/d" type="array">
+      <obj_property name="ElementShortName">d[15:0]</obj_property>
+      <obj_property name="ObjectShortName">d[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/as_n" type="logic">
+      <obj_property name="ElementShortName">as_n</obj_property>
+      <obj_property name="ObjectShortName">as_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/rw_n" type="logic">
+      <obj_property name="ElementShortName">rw_n</obj_property>
+      <obj_property name="ObjectShortName">rw_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/uds_n" type="logic">
+      <obj_property name="ElementShortName">uds_n</obj_property>
+      <obj_property name="ObjectShortName">uds_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/lds_n" type="logic">
+      <obj_property name="ElementShortName">lds_n</obj_property>
+      <obj_property name="ObjectShortName">lds_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/mc68000_0/dtack_n" type="logic">
+      <obj_property name="ElementShortName">dtack_n</obj_property>
+      <obj_property name="ObjectShortName">dtack_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_0/rw_n" type="logic">
+      <obj_property name="ElementShortName">rw_n</obj_property>
+      <obj_property name="ObjectShortName">rw_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_0/oe_n" type="logic">
+      <obj_property name="ElementShortName">oe_n</obj_property>
+      <obj_property name="ObjectShortName">oe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_0/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_0/a" type="array">
+      <obj_property name="ElementShortName">a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_0/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_1/rw_n" type="logic">
+      <obj_property name="ElementShortName">rw_n</obj_property>
+      <obj_property name="ObjectShortName">rw_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_1/oe_n" type="logic">
+      <obj_property name="ElementShortName">oe_n</obj_property>
+      <obj_property name="ObjectShortName">oe_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_1/cs_n" type="logic">
+      <obj_property name="ElementShortName">cs_n</obj_property>
+      <obj_property name="ObjectShortName">cs_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_1/a" type="array">
+      <obj_property name="ElementShortName">a[12:0]</obj_property>
+      <obj_property name="ObjectShortName">a[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simulation/top/design_1_i/ram8kx8_1/d" type="array">
+      <obj_property name="ElementShortName">d[7:0]</obj_property>
+      <obj_property name="ObjectShortName">d[7:0]</obj_property>
+   </wvobject>
+</wave_config>
