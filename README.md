@@ -1,5 +1,5 @@
 # multiprocessor-systems-labs
-My solutions to the SMP labs of http://acs.pub.ro/~cpop/SMP/
+My solutions to the SMP labs of [Cpop](http://acs.pub.ro/~cpop/SMP/)🍿
 
 The projects include simulations and are presentation-ready ;)
 
